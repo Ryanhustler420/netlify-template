@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Get the code
         uses: actions/checkout@v3
+      - name: Get tailwindcss
+        run: npm install -D @tailwindcss/cli@latest
       - name: Build Tailwind CSS
         run: npm run build-css
       - name: Deploying on netlify
