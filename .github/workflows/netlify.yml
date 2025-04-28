@@ -19,7 +19,7 @@ jobs:
       - name: Running Sever
         run: |
           nohup deno run --allow-all \
-          server/server.ts &
+          server/index.ts &
         # ps & kill $pid
       - name: Get tailwindcss
         run: npm install -D @tailwindcss/cli@latest
