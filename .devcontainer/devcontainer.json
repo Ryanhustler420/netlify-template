@@ -1,0 +1,9 @@
+{
+  "name": "Extentions",
+  "extensions": [
+    "ms-python.python",
+    "github.vscode-github-actions",
+    "ritwickdey.liveserver",
+    "denoland.vscode-deno"
+  ]
+}
